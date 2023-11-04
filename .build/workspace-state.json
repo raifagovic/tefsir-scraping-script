@@ -1,0 +1,1 @@
+{"object": {"artifacts": [], "dependencies": [{"basedOn": null, "packageRef": {"identity": "kanna", "kind": "remote", "location": "https://github.com/tid-kijyun/Kanna.git", "name": "Kanna"}, "state": {"checkoutState": {"branch": null, "revision": "f9e4922223dd0d3dfbf02ca70812cf5531fc0593", "version": "5.2.7"}, "name": "checkout"}, "subpath": "Kanna"}]}, "version": 4}

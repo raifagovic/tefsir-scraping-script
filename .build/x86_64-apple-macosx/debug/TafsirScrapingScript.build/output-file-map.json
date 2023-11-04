@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build/master.swiftdeps"
+  },
+  "/Users/Raif/Documents/TafsirScrapingScript/Sources/TafsirScrapingScript/main.swift": {
+    "dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build/main.d",
+    "object": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build/main.swift.o",
+    "swiftmodule": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build/main.swiftdeps"
+  }
+}

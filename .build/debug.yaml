@@ -1,0 +1,76 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "Kanna-debug.module": ["<Kanna-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "TafsirScrapingScript-debug.exe": ["<TafsirScrapingScript-debug.exe>"]
+  "TafsirScrapingScript-debug.module": ["<TafsirScrapingScript-debug.module>"]
+  "main": ["<TafsirScrapingScript-debug.exe>","<TafsirScrapingScript-debug.module>"]
+  "test": ["<TafsirScrapingScript-debug.exe>","<TafsirScrapingScript-debug.module>"]
+default: "main"
+nodes:
+  "/Users/Raif/Documents/TafsirScrapingScript/Sources/TafsirScrapingScript/":
+    is-directory-structure: true
+commands:
+  "<Kanna-debug.module>":
+    tool: phony
+    inputs: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/CSS.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Deprecated.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Kanna.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLDocument.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLNode.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlParserOption.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.swiftmodule"]
+    outputs: ["<Kanna-debug.module>"]
+
+  "<TafsirScrapingScript-debug.exe>":
+    tool: phony
+    inputs: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript"]
+    outputs: ["<TafsirScrapingScript-debug.exe>"]
+
+  "<TafsirScrapingScript-debug.module>":
+    tool: phony
+    inputs: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build/main.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.swiftmodule"]
+    outputs: ["<TafsirScrapingScript-debug.module>"]
+
+  "C.Kanna-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/CSS.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/Deprecated.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/Kanna.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlHTMLDocument.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlHTMLNode.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlParserOption.swift"]
+    outputs: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/CSS.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Deprecated.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Kanna.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLDocument.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLNode.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlParserOption.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Kanna"
+    module-output-path: "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.swiftmodule"
+    import-paths: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build"
+    objects: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/CSS.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Deprecated.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Kanna.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLDocument.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLNode.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlParserOption.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna-Swift.h","-color-diagnostics"]
+    sources: ["/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/CSS.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/Deprecated.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/Kanna.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlHTMLDocument.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlHTMLNode.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlParserOption.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "C.TafsirScrapingScript-debug.exe":
+    tool: shell
+    inputs: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/CSS.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Deprecated.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Kanna.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLDocument.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLNode.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlParserOption.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build/main.swift.o"]
+    outputs: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/TafsirScrapingScript"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug","-o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript","-module-name","TafsirScrapingScript","-emit-executable","-Xlinker","-alias","-Xlinker","_TafsirScrapingScript_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.5/macosx","-target","x86_64-apple-macosx10.10","-Xlinker","-add_ast_path","-Xlinker","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.TafsirScrapingScript-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/Raif/Documents/TafsirScrapingScript/Sources/TafsirScrapingScript/main.swift","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.swiftmodule"]
+    outputs: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build/main.swift.o","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "TafsirScrapingScript"
+    module-output-path: "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.swiftmodule"
+    import-paths: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build"
+    objects: ["/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/TafsirScrapingScript.build/main.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","TafsirScrapingScript_main","-color-diagnostics"]
+    sources: ["/Users/Raif/Documents/TafsirScrapingScript/Sources/TafsirScrapingScript/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/Raif/Documents/TafsirScrapingScript/Sources/TafsirScrapingScript/","/Users/Raif/Documents/TafsirScrapingScript/Package.swift","/Users/Raif/Documents/TafsirScrapingScript/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

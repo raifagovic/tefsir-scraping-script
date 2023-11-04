@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1691640433, 915966033]
+build_end_time: [1691640446, 761873960]
+inputs:
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/CSS.swift": [1691640432, 835530757]
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/Deprecated.swift": [1691640432, 835735321]
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/Kanna.swift": [1691640432, 836631536]
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlHTMLDocument.swift": [1691640432, 836978912]
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlHTMLNode.swift": [1691640432, 837373256]
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlParserOption.swift": [1691640432, 837576866]

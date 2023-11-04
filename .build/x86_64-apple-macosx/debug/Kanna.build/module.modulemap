@@ -1,0 +1,4 @@
+module Kanna {
+    header "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna-Swift.h"
+    requires objc
+}

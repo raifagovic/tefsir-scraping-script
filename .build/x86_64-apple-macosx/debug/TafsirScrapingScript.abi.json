@@ -1,0 +1,806 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TafsirScrapingScript"
+    },
+    {
+      "kind": "Import",
+      "name": "Kanna",
+      "printedName": "Kanna",
+      "declKind": "Import",
+      "moduleName": "TafsirScrapingScript"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TafsirScrapingScript"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TafsirScrapingScript"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Chapter",
+      "printedName": "Chapter",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "number",
+          "printedName": "number",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20TafsirScrapingScript7ChapterV6numberSivp",
+          "mangledName": "$s20TafsirScrapingScript7ChapterV6numberSivp",
+          "moduleName": "TafsirScrapingScript",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20TafsirScrapingScript7ChapterV6numberSivg",
+              "mangledName": "$s20TafsirScrapingScript7ChapterV6numberSivg",
+              "moduleName": "TafsirScrapingScript",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "name",
+          "printedName": "name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20TafsirScrapingScript7ChapterV4nameSSvp",
+          "mangledName": "$s20TafsirScrapingScript7ChapterV4nameSSvp",
+          "moduleName": "TafsirScrapingScript",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20TafsirScrapingScript7ChapterV4nameSSvg",
+              "mangledName": "$s20TafsirScrapingScript7ChapterV4nameSSvg",
+              "moduleName": "TafsirScrapingScript",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "placeOfRevelation",
+          "printedName": "placeOfRevelation",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20TafsirScrapingScript7ChapterV17placeOfRevelationSSvp",
+          "mangledName": "$s20TafsirScrapingScript7ChapterV17placeOfRevelationSSvp",
+          "moduleName": "TafsirScrapingScript",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20TafsirScrapingScript7ChapterV17placeOfRevelationSSvg",
+              "mangledName": "$s20TafsirScrapingScript7ChapterV17placeOfRevelationSSvg",
+              "moduleName": "TafsirScrapingScript",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "numberOfVerses",
+          "printedName": "numberOfVerses",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20TafsirScrapingScript7ChapterV14numberOfVersesSivp",
+          "mangledName": "$s20TafsirScrapingScript7ChapterV14numberOfVersesSivp",
+          "moduleName": "TafsirScrapingScript",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20TafsirScrapingScript7ChapterV14numberOfVersesSivg",
+              "mangledName": "$s20TafsirScrapingScript7ChapterV14numberOfVersesSivg",
+              "moduleName": "TafsirScrapingScript",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "verses",
+          "printedName": "verses",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TafsirScrapingScript.Verse]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Verse",
+                  "printedName": "TafsirScrapingScript.Verse",
+                  "usr": "s:20TafsirScrapingScript5VerseV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20TafsirScrapingScript7ChapterV6versesSayAA5VerseVGvp",
+          "mangledName": "$s20TafsirScrapingScript7ChapterV6versesSayAA5VerseVGvp",
+          "moduleName": "TafsirScrapingScript",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[TafsirScrapingScript.Verse]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Verse",
+                      "printedName": "TafsirScrapingScript.Verse",
+                      "usr": "s:20TafsirScrapingScript5VerseV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20TafsirScrapingScript7ChapterV6versesSayAA5VerseVGvg",
+              "mangledName": "$s20TafsirScrapingScript7ChapterV6versesSayAA5VerseVGvg",
+              "moduleName": "TafsirScrapingScript",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:20TafsirScrapingScript7ChapterV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s20TafsirScrapingScript7ChapterV6encode2toys7Encoder_p_tKF",
+          "moduleName": "TafsirScrapingScript",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Chapter",
+              "printedName": "TafsirScrapingScript.Chapter",
+              "usr": "s:20TafsirScrapingScript7ChapterV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:20TafsirScrapingScript7ChapterV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s20TafsirScrapingScript7ChapterV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "TafsirScrapingScript",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(number:name:placeOfRevelation:numberOfVerses:verses:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Chapter",
+              "printedName": "TafsirScrapingScript.Chapter",
+              "usr": "s:20TafsirScrapingScript7ChapterV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TafsirScrapingScript.Verse]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Verse",
+                  "printedName": "TafsirScrapingScript.Verse",
+                  "usr": "s:20TafsirScrapingScript5VerseV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:20TafsirScrapingScript7ChapterV6number4name17placeOfRevelation0eH6Verses6versesACSi_S2SSiSayAA5VerseVGtcfc",
+          "mangledName": "$s20TafsirScrapingScript7ChapterV6number4name17placeOfRevelation0eH6Verses6versesACSi_S2SSiSayAA5VerseVGtcfc",
+          "moduleName": "TafsirScrapingScript",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:20TafsirScrapingScript7ChapterV",
+      "mangledName": "$s20TafsirScrapingScript7ChapterV",
+      "moduleName": "TafsirScrapingScript",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Verse",
+      "printedName": "Verse",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "number",
+          "printedName": "number",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20TafsirScrapingScript5VerseV6numberSivp",
+          "mangledName": "$s20TafsirScrapingScript5VerseV6numberSivp",
+          "moduleName": "TafsirScrapingScript",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20TafsirScrapingScript5VerseV6numberSivg",
+              "mangledName": "$s20TafsirScrapingScript5VerseV6numberSivg",
+              "moduleName": "TafsirScrapingScript",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "text",
+          "printedName": "text",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20TafsirScrapingScript5VerseV4textSSvp",
+          "mangledName": "$s20TafsirScrapingScript5VerseV4textSSvp",
+          "moduleName": "TafsirScrapingScript",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20TafsirScrapingScript5VerseV4textSSvg",
+              "mangledName": "$s20TafsirScrapingScript5VerseV4textSSvg",
+              "moduleName": "TafsirScrapingScript",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "originalText",
+          "printedName": "originalText",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20TafsirScrapingScript5VerseV12originalTextSSvp",
+          "mangledName": "$s20TafsirScrapingScript5VerseV12originalTextSSvp",
+          "moduleName": "TafsirScrapingScript",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20TafsirScrapingScript5VerseV12originalTextSSvg",
+              "mangledName": "$s20TafsirScrapingScript5VerseV12originalTextSSvg",
+              "moduleName": "TafsirScrapingScript",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "commentary",
+          "printedName": "commentary",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20TafsirScrapingScript5VerseV10commentarySSvp",
+          "mangledName": "$s20TafsirScrapingScript5VerseV10commentarySSvp",
+          "moduleName": "TafsirScrapingScript",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20TafsirScrapingScript5VerseV10commentarySSvg",
+              "mangledName": "$s20TafsirScrapingScript5VerseV10commentarySSvg",
+              "moduleName": "TafsirScrapingScript",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:20TafsirScrapingScript5VerseV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s20TafsirScrapingScript5VerseV6encode2toys7Encoder_p_tKF",
+          "moduleName": "TafsirScrapingScript",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Verse",
+              "printedName": "TafsirScrapingScript.Verse",
+              "usr": "s:20TafsirScrapingScript5VerseV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:20TafsirScrapingScript5VerseV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s20TafsirScrapingScript5VerseV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "TafsirScrapingScript",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(number:text:originalText:commentary:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Verse",
+              "printedName": "TafsirScrapingScript.Verse",
+              "usr": "s:20TafsirScrapingScript5VerseV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:20TafsirScrapingScript5VerseV6number4text12originalText10commentaryACSi_S3Stcfc",
+          "mangledName": "$s20TafsirScrapingScript5VerseV6number4text12originalText10commentaryACSi_S3Stcfc",
+          "moduleName": "TafsirScrapingScript",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:20TafsirScrapingScript5VerseV",
+      "mangledName": "$s20TafsirScrapingScript5VerseV",
+      "moduleName": "TafsirScrapingScript",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Function",
+      "name": "scrapeChapters",
+      "printedName": "scrapeChapters()",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:20TafsirScrapingScript14scrapeChaptersyyF",
+      "mangledName": "$s20TafsirScrapingScript14scrapeChaptersyyF",
+      "moduleName": "TafsirScrapingScript",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "scrapeChapter",
+      "printedName": "scrapeChapter(url:number:name:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Optional",
+          "printedName": "TafsirScrapingScript.Chapter?",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Chapter",
+              "printedName": "TafsirScrapingScript.Chapter",
+              "usr": "s:20TafsirScrapingScript7ChapterV"
+            }
+          ],
+          "usr": "s:Sq"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "URL",
+          "printedName": "Foundation.URL",
+          "usr": "s:10Foundation3URLV"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Int",
+          "printedName": "Swift.Int",
+          "usr": "s:Si"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:20TafsirScrapingScript13scrapeChapter3url6number4nameAA0E0VSg10Foundation3URLV_SiSStF",
+      "mangledName": "$s20TafsirScrapingScript13scrapeChapter3url6number4nameAA0E0VSg10Foundation3URLV_SiSStF",
+      "moduleName": "TafsirScrapingScript",
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}

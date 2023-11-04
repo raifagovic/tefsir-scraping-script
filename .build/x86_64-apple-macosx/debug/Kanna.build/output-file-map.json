@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/master.swiftdeps"
+  },
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/CSS.swift": {
+    "dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/CSS.d",
+    "object": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/CSS.swift.o",
+    "swiftmodule": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/CSS~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/CSS.swiftdeps"
+  },
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/Deprecated.swift": {
+    "dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Deprecated.d",
+    "object": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Deprecated.swift.o",
+    "swiftmodule": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Deprecated.swiftdeps"
+  },
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/Kanna.swift": {
+    "dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Kanna.d",
+    "object": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Kanna.swift.o",
+    "swiftmodule": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Kanna~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/Kanna.swiftdeps"
+  },
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlHTMLDocument.swift": {
+    "dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLDocument.d",
+    "object": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLDocument.swift.o",
+    "swiftmodule": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLDocument~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLDocument.swiftdeps"
+  },
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlHTMLNode.swift": {
+    "dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLNode.d",
+    "object": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLNode.swift.o",
+    "swiftmodule": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlHTMLNode.swiftdeps"
+  },
+  "/Users/Raif/Documents/TafsirScrapingScript/.build/checkouts/Kanna/Sources/Kanna/libxmlParserOption.swift": {
+    "dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlParserOption.d",
+    "object": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlParserOption.swift.o",
+    "swiftmodule": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlParserOption~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raif/Documents/TafsirScrapingScript/.build/x86_64-apple-macosx/debug/Kanna.build/Kanna/libxmlParserOption.swiftdeps"
+  }
+}
